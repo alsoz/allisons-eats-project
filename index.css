@@ -27,13 +27,22 @@ h3{
   font-size: 24px;
   font-weight: bold;
 }
-div.featured{
+div.gen_section{
   background-color: rgba(255, 255, 255, .7);
-  border: solid black 1px;
 }
-div.catalogue{
-  background-color: rgba(255, 255, 255, .7);
-  border: solid black 1px;
+table.gen_table{
+  table-layout: fixed;
+  width: 100%;
+  border-spacing: 5px;
+  text-align: center;
+}
+table.gen_table td{
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 10px;
+}
+table#featured_table td{
+  border: 2px dashed black;
 }
 @media (max-width: 500px){
   h1{
